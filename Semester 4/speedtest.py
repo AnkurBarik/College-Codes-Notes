@@ -38,7 +38,7 @@ def stop_speedtests():
     log_display.insert(tk.END, "Speed Tests Stopped\n")
 
 root = tk.Tk()
-root.title("Stresser Utility By Sayan")
+root.title("Stresser Utility By HOD of CSS Department")
 
 frame = ttk.Frame(root, padding="20")
 frame.grid(row=0, column=0)
