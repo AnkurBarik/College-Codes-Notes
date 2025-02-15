@@ -59,3 +59,4 @@ log_display = tk.Text(root, height=10, width=50)
 log_display.grid(row=1, column=0, padx=10, pady=10, columnspan=2)
 
 root.mainloop()
+# pip3 install speedtest-cli
