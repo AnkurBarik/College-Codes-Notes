@@ -77,7 +77,6 @@
             $number = $_POST["number"];
             $original = $number;
             $reverse = 0;
-            $r = $number % 10;
 
             while ($number > 0) {
                 $digit = $number % 10;
