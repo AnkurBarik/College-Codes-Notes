@@ -56,10 +56,10 @@
         <div id="result">
             <?php
                 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                    $number = $_POST['number'];
+                    $number = intval($_POST['number']); // Convert to integer
                     $sum = 0;
                     $temp = $number;
-                    $digits = strlen($number);
+                    $digits = strlen($_POST['number']); // Use original string length
 
                     while ($temp > 0) {
                         $digit = $temp % 10;
