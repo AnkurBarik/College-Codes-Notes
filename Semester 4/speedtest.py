@@ -78,3 +78,4 @@ log_display.grid(row=4, column=0, padx=10, pady=10, columnspan=2)
 
 root.mainloop()
 
+# pip3 install speedtest-cli
